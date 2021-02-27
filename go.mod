@@ -1,4 +1,4 @@
-module surf
+module github.com/mzgs/surf-web
 
 go 1.15
 
