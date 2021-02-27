@@ -1,16 +1,14 @@
 package browser
 
 import (
+	"github.com/mzgs/surf-web/mzgserrors"
 	"html"
 	"net/url"
 	"strings"
-	"surf/mzgserrors"
- 
 
 	"io"
 
 	"github.com/PuerkitoBio/goquery"
- 
 )
 
 // Submittable represents an element that may be submitted, such as a form.

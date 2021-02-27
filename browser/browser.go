@@ -5,6 +5,8 @@ import (
 	"compress/flate"
 	"compress/gzip"
 	"fmt"
+	"github.com/mzgs/surf-web/jar"
+	"github.com/mzgs/surf-web/mzgserrors"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -14,13 +16,9 @@ import (
 	"net/url"
 	"os"
 	"strings"
-	"surf/jar"
-	"surf/mzgserrors"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	 
- 
 )
 
 // Attribute represents a Browser capability.

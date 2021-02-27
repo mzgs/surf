@@ -2,9 +2,9 @@ package jar
 
 import (
 	"encoding/json"
- 
-	"surf/mzgserrors"
-	"surf/util"
+
+	"github.com/mzgs/surf-web/mzgserrors"
+	"github.com/mzgs/surf-web/util"
 
 	"io/ioutil"
 	"os"

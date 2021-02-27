@@ -2,9 +2,9 @@
 package surf
 
 import (
-	"surf/agent"
-	"surf/browser"
-	"surf/jar"
+	"github.com/mzgs/surf-web/agent"
+	"github.com/mzgs/surf-web/browser"
+	"github.com/mzgs/surf-web/jar"
 )
 
 var (
